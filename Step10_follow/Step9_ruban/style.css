@@ -1,0 +1,227 @@
+*{
+    margin : 0 ;
+    padding : 0 ;
+}
+.container {
+    background-color : white ;
+    width : 90% ;
+    max-width: 1100px;
+    border: 1px solid black;
+    margin : auto ;
+}
+footer {
+    background-color: #cccccc;
+    width : 100% ;
+    height: 100px;
+    border: 1px solid black;
+}
+.showcase {
+    background-color: #cccccc ;
+    width: 100% ;
+    height: 60px ;
+    border: 1px solid black;
+}
+.home-cards {
+    background-color: #d3eaac;
+    width: 100% ;
+    height: 100px ;
+    border: 1px solid black ;
+}
+.ruban {
+    background-color: #d3eaac;
+    width: 100% ;
+    height: 100px ;
+    border: 1px solid black ;
+}
+.follow {
+    background-color: #d3eaac;
+    width: 100% ;
+    height: 100px ;
+    border: 1px solid black ;
+}
+.links {
+    background-color: #d3eaac;
+    width: 100% ;
+    height: 100px ;
+    border: 1px solid black ;
+}
+.sub-footer {
+    background-color: #d3eaac;
+    width: 100% ;
+    height: 100px ;
+    border: 1px solid black ;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main-nav {
+    height: 60px ;
+    padding : 20px 0 ;
+    font-size : 13px ;
+    background-color: white ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+}
+.main-nav
+.logo {
+width: 110px;
+height: auto;
+}
+.main-menu,
+.right-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.main-menu {
+    flex: 1;
+    margin-left: 20px;
+}
+.main-menu li {
+    margin-right: 10px;
+}
+.main-menu a,
+.right-menu a {
+    color: #262626;
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 2px solid transparent;
+}
+.main-menu a:hover,
+.right-menu a:hover {
+    border-bottom: 2px solid black;
+}
+.right-menu {
+    gap: 15px;
+}
+.main-menu a:hover {
+  border-bottom: 2px solid black;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: white ;
+  color: black ;
+  font-size: 15px ;
+  line-height: 1.5 ;
+}
+.showcase {
+    height: 400px ;
+    background-color: white ;
+    background-image: url("slide1.png");
+    background-position: center top;
+    background-size: 30% ;
+    background-repeat: no-repeat ;
+    justify-content: flex-end;
+    border: none ;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+    gap: 50px ;
+    margin-bottom: 20px ;
+}
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #378ff5 ;
+    color: white;
+    font-weight: bold ;
+}
+.btn:hover {
+    opacity : 0.8 ;
+}
+.dark {
+    color: white ;
+}
+.dark .btn {
+    background-color: #f4f4f4;
+    color: #333;
+}
+.home-cards {
+    display: grid ;
+    grid-template-columns: repeat( 4 , 1fr);
+    gap: 20px ;
+    margin-bottom: 40px ;
+    background-color: white ;
+    width: auto ;
+    border: none ;
+}
+.home-cards img {
+    width: 100% ;
+    margin-bottom: 20px ;
+}
+.home-cards {
+    margin-bottom: 5px ;
+}
+.home-cards a {
+    color:#0067b8 ;
+    text-transform: uppercase ;
+    font-weight: bold ;
+    margin-top: 10px ;
+    display: inline-block ;
+}
+.home-cards a:hover i {
+    margin-left: 10px ;
+}
+#bigData-intro {
+    height: 350px ;
+    background-image: url("../img/bigData.png") ;
+    background-position: center ;
+    background-size: cover ;
+    margin-bottom: 20px ;
+    padding-bottom: 100px ;
+    border: none ;
+}
+#bigData-intro .content {
+    width: 40% ;
+    color: #262626 ;
+    padding-top: 50px ;
+    padding-left: 30px ;
+}
+#bigData-intro .content p {
+    margin-top: 10px;
+    margin-bottom: 20 ;
+}
+.home-cards {
+    height: 350px ;
+    background-position: center ;
+    background-size: cover ;
+    margin-bottom: 20px ;
+    padding-bottom: 100px ;
+    border: none ;
+}
+.home-cards .content {
+    width: 40% ;
+    color: #262626 ;
+    padding-top: 50px ;
+    padding-left: 30px ;
+}
+.home-cards .content p {
+    margin-top: 10px;
+    margin-bottom: 20 ;
+}
+.ruban {
+    width: 100% ;
+    height: 350px ;
+    background-image: url("carbon2.jpg");
+    background-position: center ;
+    background-size: cover ;
+    background-position-y: top;
+    border: none ;
+}
+.ruban .content {
+    width: 55% ;
+    color: white ;
+    padding-top: 80px ;
+    padding-left: 30px ;
+}
+.ruban .content p {
+    margin-top: 10px ;
+    margin-bottom: 20px ;
+}
+.dark .btn {
+    background-color: #03254c;
+    color: white  ;
+}
